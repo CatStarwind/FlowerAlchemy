@@ -1,0 +1,97 @@
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+	background-color:azure;
+}
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0;
+}
+button { width: 100%; }
+
+.seeds {
+	display: flex;
+	flex-wrap: wrap;
+}
+.seeds>div {
+	border: 3px solid lightgreen;
+	background-color:bisque;
+	padding: 1em;
+	border-radius: 10px;
+	margin: 1em;
+}	
+.flower {
+	display: inline-block;
+	cursor: pointer;
+	text-align:center;
+	margin: 0 0.2em;
+}
+.flower img {
+	display: block;
+	width: 48px;	
+	border: 1px solid green;
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+	background-color: beige;	
+	vertical-align: middle;	
+}
+.flower .gene { font-size: 0.8em; }
+.flower div {	
+	padding:0.2em;
+	background-color: ivory;
+	border: 1px solid green;
+	border-radius: 0 0 10px 10px;
+}
+.flower span {
+	font-weight: bold;
+	text-align: center;
+}
+.gene {
+	font-family: consolas, monospace;
+}
+
+div.phFlower { width:60px; height:74px; border-radius: 10px; }
+
+#breeder {
+	display: flex;
+	flex-wrap: wrap;
+	border: 5px solid slategray;
+	border-radius: 20px;
+	padding: 1em;
+}
+#parents {
+	display: flex;
+	flex-direction: column;
+	margin-right: 2em;
+}
+.parent { margin-bottom: 1em; }
+.parent .flower img { width: 64px; }
+.parent .flower div { font-size: 0.8em; }
+
+#offsprings {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin: 1em;
+	background-color: palegreen;	
+	border-radius: 10px;
+
+}
+#offsprings .flower {
+	margin: 1em;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-top:0.5em;
+}
+
+#flowerBag {
+	display: flex;
+	align-items: flex-start;
+	margin: 1em;
+	background-color: khaki;
+	border-radius: 10px;
+}
+#flowerBag .flower {
+	margin: 1em;
+}
